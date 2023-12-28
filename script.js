@@ -23,7 +23,7 @@ Notification.requestPermission().then(permission => {
 function scheduleNotifications() {
     setInterval(function() {
         showNotification();
-    },30* 60* 1000);
+    },1800000);
 }
 
 function showNotification() {
