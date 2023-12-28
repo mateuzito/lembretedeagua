@@ -9,6 +9,17 @@ body {
     min-height: 100vh;
 }
 
+header {
+    background-color:#4caf50;
+    color:#fff;
+    text-align:center;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #859f86;
+    max-width: 50vh;
+    user-select: none;
+}
+
 .container {
     text-align: center;
     flex: 1;
@@ -16,7 +27,7 @@ body {
     user-select: none;
 }
 
-h1 {
+h1:hover {
     color: #333;
 }
 
