@@ -1,7 +1,3 @@
-function showReminder() {
-    alert('Lembre-se de beber água');
-}
-
 function toggleNotifications() {
     const notificationCheckbox =
 document.getElementById('notificationCheckbox');
